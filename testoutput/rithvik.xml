@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="17.699">
+<testcase classname="Test the skillrary app" name="To Test login with all positive data" time="7.166">
+<system-out><![CDATA[Given I should open the browser and navigate to the login page of skillrary.passed
+When Enter Username "user"..................................................passed
+And Enter Password "user"...................................................passed
+And Click on the LoginButton................................................passed
+Then I should see the username as "Harry Den"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the skillrary app" name="To Test login with all positive data 2" time="5.362">
+<system-out><![CDATA[Given I should open the browser and navigate to the login page of skillrary.passed
+When Enter Username "user"..................................................passed
+And Enter Password "user"...................................................passed
+And Click on the LoginButton................................................passed
+Then I should see the username as "Harry Den"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the skillrary app" name="To Test the Login with Invalid Credentials" time="4.86">
+<system-out><![CDATA[Given I should open the browser and navigate to the login page of skillrary.passed
+When Enter Username "rithvik"...............................................passed
+And Enter Password "rithvik"................................................passed
+And Click on the LoginButton................................................passed
+Then I should navigate to the page "Register"...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
